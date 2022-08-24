@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challeng</title>
+</head>
+
+<body style="background-color: rgb(0, 140, 255);">
+    
+        <center><h1>what is write in moving action text <br> first 
+             winner will be given 50 Rupees</h1>
+            <h2> so easy 👇🏻</h2>
+    <span class="typing-text"></span> </center>
+
+
+    <!--  <script>function () {
+		var typed = new Typed(".typed", {
+			strings: ["Darul uloom", "Hifaz", "Dar-se-Nazami","Takhassos" ,"Alfatva"],
+			typeSpeed: 50,
+			backSpeed: 20,
+			loop: true,
+			loopCount: Infinity,
+			backDelay: 1500,
+			showCursor: true,
+			offset: 0,
+
+		});
+    } </script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script>
+
+        var type = new Typed('.typing-text',{
+            strings : [ 'we learning html sir Haq nawaz Sahib', 'you can not read me Mudassar Razzaq', 'if u use f12 key u will be smart boy', '🤣🤣😇🤣🤣😇' ],
+            typeSpeed: 2,
+            backSpeed: 1,
+            loopCount: Infinity,
+            backDelay:9,
+            loop:true,
+            offset:0,
+        });
+    
+        let themeColor = document.querySelectorAll('.theme-toggler span');
+        themeColor.forEach(color => color.addEventListener('click', () =>{
+            let background = color.style.background;
+            document.querySelector('body').style.background = background;
+        }));
+    
+    </script>
+
+</body>
+</html>
